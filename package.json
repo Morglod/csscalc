@@ -1,0 +1,26 @@
+{
+  "name": "cssunits",
+  "version": "0.0.1",
+  "description": "operate with css units in js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Morglod/cssunits.git"
+  },
+  "keywords": [
+    "css",
+    "units",
+    "math",
+    "types"
+  ],
+  "author": "morglod",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.4.1"
+  }
+}
