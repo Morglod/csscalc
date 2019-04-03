@@ -41,6 +41,12 @@ convert(50, '%w', 'px', calcCtx(element));
 Relative["%w"](50, calcCtx(element));
 ```
 
+`calc` method converts all known units and then invokes js's `eval` method, so you can use any inline js code in `calc`.  
+For example min/max from Math:
+```ts
+calc('Math.max(100%w, 100%h)', element)
+```
+
 ## API
 
 `Absolute` map, units -> pixels.  
