@@ -1,6 +1,6 @@
 {
-  "name": "cssunits",
-  "version": "0.0.1",
+  "name": "csscalc",
+  "version": "0.1.0",
   "description": "operate with css units in js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,7 +16,8 @@
     "css",
     "units",
     "math",
-    "types"
+    "types",
+    "css-in-js"
   ],
   "author": "morglod",
   "license": "MIT",
