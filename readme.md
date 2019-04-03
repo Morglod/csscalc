@@ -1,4 +1,4 @@
-# cssunits
+# csscalc
 
 [![NPM Version][https://img.shields.io/npm/v/cssunits.svg]][https://www.npmjs.com/package/cssunits]
 

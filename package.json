@@ -1,6 +1,6 @@
 {
   "name": "csscalc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "operate with css units in js",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Morglod/cssunits.git"
+    "url": "https://github.com/Morglod/csscalc.git"
   },
   "keywords": [
     "css",
