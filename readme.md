@@ -1,6 +1,6 @@
-# cssunits
+[![NPM Version](https://badge.fury.io/js/csscalc.svg?style=flat)](https://www.npmjs.com/package/csscalc)
 
-[![NPM Version][https://img.shields.io/npm/v/cssunits.svg]][https://www.npmjs.com/package/cssunits]
+# cssunits
 
 JavaScript library to do math with css units.  
 Fully typed with typescript.
