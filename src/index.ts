@@ -68,7 +68,7 @@ export type RelativeUnit = keyof typeof Relative;
 
 export type Unit = AbsoluteUnit | RelativeUnit;
 
-export const UnitRegexpStr = `(?:\\s|^)(\\d+)(${Object.keys(Units).join('|')})(?:\\s|$|\\n)`;
+export const UnitRegexpStr = `(?:\\s|^)(\\d*(?:\\.\\d+)?)(${Object.keys(Units).join('|')})(?:\\s|$|\\n)`;
 export const UnitRegexp = new RegExp(UnitRegexpStr);
 export const UnitRegexpGM = new RegExp(UnitRegexpStr, 'gm');
 
